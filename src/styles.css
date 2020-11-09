@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: greenyellow;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 0 40px;
+  border: 1px solid rgb(20, 5, 80);
+}
+
+.value {
+  font-size: 50px;
+}
